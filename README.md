@@ -1,4 +1,4 @@
-# Flatironinstitute Ccm
+# Homebrew formulae from Flatiron Institute's CCM
 
 ## How do I install these formulae?
 
