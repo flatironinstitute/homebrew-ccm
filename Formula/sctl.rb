@@ -13,8 +13,7 @@ class Sctl < Formula
   end
 
   def install
-    include.install "include/sctl"
-    include.install "include/sctl.hpp"
+    include.install Dir["include/*"]
   end
 
   test do
