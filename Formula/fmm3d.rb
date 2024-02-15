@@ -4,6 +4,7 @@ class Fmm3d < Formula
   url "https://github.com/flatironinstitute/FMM3D/archive/refs/tags/v1.0.2.tar.gz"
   sha256 "e29a1ebe485d2431d4e330334b2853bc91b957afde6e24c2991099b28bd2b97c"
   license "Apache-2.0"
+  head "https://github.com/flatironinstitute/FMM3D.git", branch: "master"
 
   bottle do
     root_url "https://ghcr.io/v2/flatironinstitute/ccm"
