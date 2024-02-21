@@ -6,12 +6,6 @@ class Fmm3d < Formula
   license "Apache-2.0"
   head "https://github.com/flatironinstitute/FMM3D.git", branch: "master"
 
-  bottle do
-    root_url "https://ghcr.io/v2/flatironinstitute/ccm"
-    sha256 cellar: :any,                 ventura:      "b656b343a56284d8a24d07850515ab99a45a6acd03ae0b0de4867d1fd745fd4b"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "43b26f7877439572dccf5a17dc9c0b65e209552c281f2be31c021537b030dd75"
-  end
-
   depends_on "gcc"
 
   def install
