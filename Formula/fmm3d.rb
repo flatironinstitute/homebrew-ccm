@@ -12,7 +12,7 @@ class Fmm3d < Formula
     ln_s "make.inc.macosx.gnu", "make.inc" if OS.mac?
 
     # Don't use -march=native when building a bottle
-    inreplace "makefile", "-march=native", "-march=#{Hardware.oldest_cpu}" if build.bottle?
+    inreplace "makefile", "-march=native", "" if build.bottle?
 
     # Build libraries
     system "make", "lib"
